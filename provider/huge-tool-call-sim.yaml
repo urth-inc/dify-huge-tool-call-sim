@@ -1,0 +1,13 @@
+identity:
+  author: akiraueno
+  name: huge-tool-call-sim
+  label:
+    en_US: HugeToolCallSim
+  description:
+    en_US: HugeToolCallSim
+  icon: icon.svg
+strategies:
+  - strategies/huge-tool-call-sim.yaml
+extra:
+  python:
+    source: provider/huge-tool-call-sim.py

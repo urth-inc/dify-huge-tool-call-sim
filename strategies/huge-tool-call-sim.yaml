@@ -1,0 +1,19 @@
+identity:
+  name: huge-tool-call-sim
+  author: akiraueno
+  label:
+    en_US: HugeToolCallSim
+description:
+  en_US: HugeToolCallSim
+parameters:
+  - name: model
+    type: model-selector
+    scope: tool-call&llm
+    required: true
+    label:
+      en_US: Model
+      zh_Hans: 模型
+      pt_BR: Model
+extra:
+  python:
+    source: strategies/huge-tool-call-sim.py
